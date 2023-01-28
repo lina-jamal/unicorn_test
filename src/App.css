@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --primary: #f4f7f8;
+  --secondary: #f86338;
+  --text-color: #11142d;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  color: var(--text-color);
+  background-color: var(--primary);
+}
+
+button,
+input {
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
